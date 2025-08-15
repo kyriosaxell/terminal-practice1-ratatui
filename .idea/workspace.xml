@@ -11,9 +11,8 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6988fa52-e8b2-4c63-a6da-d810edb78b0f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    <list default="true" id="6988fa52-e8b2-4c63-a6da-d810edb78b0f" name="Changes" comment="Práctica Ratatui&#10;&#10;* refactor: Añadido estado de la aplicación y renderizado de lista interactiva.">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +108,24 @@
       <workItem from="1755152030348" duration="351000" />
       <workItem from="1755196351183" duration="1718000" />
       <workItem from="1755218359661" duration="2636000" />
-      <workItem from="1755224133598" duration="1366000" />
+      <workItem from="1755224133598" duration="1698000" />
     </task>
+    <task id="LOCAL-00001" summary="Práctica Ratatui&#10;&#10;* refactor: Añadido estado de la aplicación y renderizado de lista interactiva.">
+      <option name="closed" value="true" />
+      <created>1755225728912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755225728912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Práctica Ratatui&#10;&#10;* refactor: Añadido estado de la aplicación y renderizado de lista interactiva." />
+    <option name="LAST_COMMIT_MESSAGE" value="Práctica Ratatui&#10;&#10;* refactor: Añadido estado de la aplicación y renderizado de lista interactiva." />
   </component>
 </project>
