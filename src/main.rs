@@ -1,5 +1,4 @@
 use color_eyre::eyre::{Ok, Result};
-use color_eyre::owo_colors::OwoColorize;
 use ratatui::crossterm::event::KeyEvent;
 use ratatui::layout::{Constraint, Layout, Rect};
 use ratatui::style::{Color, Style, Stylize};
