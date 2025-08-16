@@ -109,7 +109,7 @@ fn run(mut terminal: DefaultTerminal, app_state: &mut AppState) -> Result<()> {
     Ok(())
 }
 
-// Renderiza de acuerdo al estado actual del programa.
+/// Renderiza de acuerdo al estado actual del programa.
 fn render(frame: &mut Frame, app_state: &mut AppState) {
     let [border_area] = Layout::vertical([Constraint::Fill(1)])
         .margin(1)
@@ -128,7 +128,7 @@ fn render(frame: &mut Frame, app_state: &mut AppState) {
     }
 }
 
-// Renderiza el formulario de entrada de datos.
+/// Renderiza el formulario para ingresar o editar una tarea.
 fn render_input_form(frame: &mut Frame, app_state: &mut AppState, border_area: Rect) {
     let title = match app_state.state {
         State::AddNew => "Ingresa tu tarea:",
@@ -147,7 +147,7 @@ fn render_input_form(frame: &mut Frame, app_state: &mut AppState, border_area: R
         .render(border_area, frame.buffer_mut());
 }
 
-// Renderiza la lista de tareas.
+/// Renderiza la lista de tareas.
 fn render_list(frame: &mut Frame, app_state: &mut AppState, border_area: Rect) {
     let [inner_area] = Layout::vertical([Constraint::Fill(1)])
         .margin(1)
@@ -207,7 +207,7 @@ fn handle_input_form(key: KeyEvent, app_state: &mut AppState) -> FormAction {
     FormAction::None
 }
 
-// Maneja los eventos de la lista.
+/// Maneja los eventos de la lista.
 fn handle_key_list_events(key_event: KeyEvent, app_state: &mut AppState) -> bool {
     match key_event.code {
         KeyCode::Enter => {
