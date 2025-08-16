@@ -208,7 +208,7 @@ fn handle_input_form(key: KeyEvent, app_state: &mut AppState) -> FormAction {
     FormAction::None
 }
 
-// Maneja los eventos principales del programa.
+// Maneja los eventos de la lista.
 fn handle_key_list_events(key_event: KeyEvent, app_state: &mut AppState) -> bool {
     match key_event.code {
         KeyCode::Enter => {
